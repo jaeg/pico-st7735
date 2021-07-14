@@ -18,6 +18,8 @@ extern "C" {
 
 //#define COLOR_MODE 0x08 // BGR For the 1.44" display I've found I need to uncomment this.
 #define COLOR_MODE 0x00 // RGB
+
+// Sometimes the screen is shifted.  You can fix that here.
 #define SCREENOFFSET_X 2
 #define SCREENOFFSET_Y 3
 
